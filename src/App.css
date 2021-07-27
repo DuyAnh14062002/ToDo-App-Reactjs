@@ -1,0 +1,73 @@
+body{
+  background: url(https://images.wallpaperscraft.com/image/field_beautiful_distance_summer_84333_800x600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App{
+  background-color: purple;
+  min-height: 630px;
+  width: 600px;
+  margin: 40px auto;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.1);
+}
+#to-do-form input{
+  background-color: rgb(27, 112, 137);
+  width: 250px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 10px 20px 20px 102px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#to-do-form input::placeholder{
+  color: #fff;
+}
+#to-do-form input:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: orange;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.list{
+  color: #fff;
+  width: 400px;
+  min-height: 50px;
+  margin: 20px auto;
+  background-color: #bf07ac;
+  border-radius: 5px;
+}
+.list p{
+  padding: 10px;
+  position: relative;
+}
+.list i{
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top:  16px;
+  cursor: pointer;
+}
+.list p input{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+.list p input:focus{
+  outline: none;
+}
+h1{
+  color: red;
+  text-align: center;
+  padding: 10px;
+}
